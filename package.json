@@ -2,8 +2,11 @@
   "name": "@ficdev/auth",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/index.js",
-  "types": "types",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
